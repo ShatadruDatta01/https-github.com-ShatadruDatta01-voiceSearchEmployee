@@ -14,6 +14,18 @@
 		5F63C69D2079351800A1DFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F63C69B2079351800A1DFB5 /* LaunchScreen.storyboard */; };
 		5F63C6A82079351800A1DFB5 /* TouchIDIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63C6A72079351800A1DFB5 /* TouchIDIntegrationTests.swift */; };
 		5F63C6B32079351800A1DFB5 /* TouchIDIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63C6B22079351800A1DFB5 /* TouchIDIntegrationUITests.swift */; };
+		5F63C6C22079442000A1DFB5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F63C6C12079442000A1DFB5 /* LocalAuthentication.framework */; };
+		5F8F6E38207A9A2200D2A39E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E37207A9A2200D2A39E /* TableViewController.swift */; };
+		5FE70634207FD20600744AEF /* voicecalling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FE70633207FD20600744AEF /* voicecalling.gif */; };
+		5FE70636207FD30600744AEF /* VoiceCallingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE70635207FD30600744AEF /* VoiceCallingController.swift */; };
+		5FE70638207FDF2300744AEF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE70637207FDF2200744AEF /* DetailsViewController.swift */; };
+		5FE70641207FFA4100744AEF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7063B207FFA4000744AEF /* BaseCollectionViewCell.swift */; };
+		5FE70642207FFA4100744AEF /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7063C207FFA4000744AEF /* BaseTableViewCell.swift */; };
+		5FE70643207FFA4100744AEF /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7063E207FFA4000744AEF /* BaseCollectionViewController.swift */; };
+		5FE70644207FFA4100744AEF /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7063F207FFA4000744AEF /* BaseTableViewController.swift */; };
+		5FE70645207FFA4100744AEF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE70640207FFA4000744AEF /* BaseViewController.swift */; };
+		5FE70647207FFB1300744AEF /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE70646207FFB1300744AEF /* ProfileCell.swift */; };
+		5FE70649207FFB3D00744AEF /* DetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE70648207FFB3D00744AEF /* DetailsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		5F63C6AE2079351800A1DFB5 /* TouchIDIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F63C6B22079351800A1DFB5 /* TouchIDIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDIntegrationUITests.swift; sourceTree = "<group>"; };
 		5F63C6B42079351800A1DFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F63C6C12079442000A1DFB5 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		5F8F6E37207A9A2200D2A39E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5FE70633207FD20600744AEF /* voicecalling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = voicecalling.gif; sourceTree = "<group>"; };
+		5FE70635207FD30600744AEF /* VoiceCallingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCallingController.swift; sourceTree = "<group>"; };
+		5FE70637207FDF2200744AEF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5FE7063B207FFA4000744AEF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FE7063C207FFA4000744AEF /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		5FE7063E207FFA4000744AEF /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		5FE7063F207FFA4000744AEF /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		5FE70640207FFA4000744AEF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5FE70646207FFB1300744AEF /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		5FE70648207FFB3D00744AEF /* DetailsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F63C6C22079442000A1DFB5 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 				5F63C6A62079351800A1DFB5 /* TouchIDIntegrationTests */,
 				5F63C6B12079351800A1DFB5 /* TouchIDIntegrationUITests */,
 				5F63C6902079351800A1DFB5 /* Products */,
+				5F63C6C02079441F00A1DFB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +123,15 @@
 		5F63C6912079351800A1DFB5 /* TouchIDIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				5FE70639207FFA4000744AEF /* Base Classes */,
+				5FE70633207FD20600744AEF /* voicecalling.gif */,
 				5F63C6922079351800A1DFB5 /* AppDelegate.swift */,
 				5F63C6942079351800A1DFB5 /* ViewController.swift */,
+				5F8F6E37207A9A2200D2A39E /* TableViewController.swift */,
+				5FE70635207FD30600744AEF /* VoiceCallingController.swift */,
+				5FE70637207FDF2200744AEF /* DetailsViewController.swift */,
+				5FE70646207FFB1300744AEF /* ProfileCell.swift */,
+				5FE70648207FFB3D00744AEF /* DetailsViewCell.swift */,
 				5F63C6962079351800A1DFB5 /* Main.storyboard */,
 				5F63C6992079351800A1DFB5 /* Assets.xcassets */,
 				5F63C69B2079351800A1DFB5 /* LaunchScreen.storyboard */,
@@ -123,6 +156,42 @@
 				5F63C6B42079351800A1DFB5 /* Info.plist */,
 			);
 			path = TouchIDIntegrationUITests;
+			sourceTree = "<group>";
+		};
+		5F63C6C02079441F00A1DFB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F63C6C12079442000A1DFB5 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FE70639207FFA4000744AEF /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7063A207FFA4000744AEF /* Cells */,
+				5FE7063D207FFA4000744AEF /* ViewControllers */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		5FE7063A207FFA4000744AEF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7063B207FFA4000744AEF /* BaseCollectionViewCell.swift */,
+				5FE7063C207FFA4000744AEF /* BaseTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5FE7063D207FFA4000744AEF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7063E207FFA4000744AEF /* BaseCollectionViewController.swift */,
+				5FE7063F207FFA4000744AEF /* BaseTableViewController.swift */,
+				5FE70640207FFA4000744AEF /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE70634207FD20600744AEF /* voicecalling.gif in Resources */,
 				5F63C69D2079351800A1DFB5 /* LaunchScreen.storyboard in Resources */,
 				5F63C69A2079351800A1DFB5 /* Assets.xcassets in Resources */,
 				5F63C6982079351800A1DFB5 /* Main.storyboard in Resources */,
@@ -259,8 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE70644207FFA4100744AEF /* BaseTableViewController.swift in Sources */,
 				5F63C6952079351800A1DFB5 /* ViewController.swift in Sources */,
+				5F8F6E38207A9A2200D2A39E /* TableViewController.swift in Sources */,
+				5FE70647207FFB1300744AEF /* ProfileCell.swift in Sources */,
 				5F63C6932079351800A1DFB5 /* AppDelegate.swift in Sources */,
+				5FE70638207FDF2300744AEF /* DetailsViewController.swift in Sources */,
+				5FE70645207FFA4100744AEF /* BaseViewController.swift in Sources */,
+				5FE70642207FFA4100744AEF /* BaseTableViewCell.swift in Sources */,
+				5FE70636207FD30600744AEF /* VoiceCallingController.swift in Sources */,
+				5FE70649207FFB3D00744AEF /* DetailsViewCell.swift in Sources */,
+				5FE70641207FFA4100744AEF /* BaseCollectionViewCell.swift in Sources */,
+				5FE70643207FFA4100744AEF /* BaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +507,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EN9RPNK9ZN;
 				INFOPLIST_FILE = TouchIDIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shatadru.TouchIDIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +523,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EN9RPNK9ZN;
 				INFOPLIST_FILE = TouchIDIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shatadru.TouchIDIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
